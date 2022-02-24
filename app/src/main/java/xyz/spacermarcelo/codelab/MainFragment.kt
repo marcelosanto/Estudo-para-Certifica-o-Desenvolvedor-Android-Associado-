@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import xyz.spacermarcelo.codelab.databinding.FragmentMainBinding
 
 
-class MainFragment : Fragment() {
+class MainFragment : androidx.fragment.app.Fragment(R.layout.fragment_main) {
 
     private lateinit var binding: FragmentMainBinding
 
